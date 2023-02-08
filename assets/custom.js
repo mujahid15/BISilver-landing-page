@@ -8,45 +8,43 @@ advanceArrows("BISilverShieldforDogs");
 function advanceArrows(idx) {
   var splideElement = "#" + idx;
   var splideDefaultOptions = {
-      arrows: true,
-      type: "slide",
-      start:0,
-      focus: 0,
-      pagination: false,
-      rewindSpeed: 500,
-      speed: 500,
-      pauseOnHover: true,
-      perPage: 6,
-      perMove: 1,
-      omitEnd: true,
-      breakpoints: {
-        375: {
-          perPage: 1,
-        },
-        576: {
-          perPage: 2,
-        },
-        991: {
-          perPage: 3,
-        },
-        992: {
-          perPage: 3,
-        },
-        1024: {
-          perPage: 4,
-        },
-        1200: {
-          perPage: 6,
-        },
-        1440: {
-          perPage: 6,
-        },
+    arrows: true,
+    type: "slide",
+    start: 0,
+    focus: 0,
+    pagination: false,
+    rewindSpeed: 500,
+    speed: 500,
+    pauseOnHover: true,
+    perPage: 6,
+    perMove: 1,
+    omitEnd: true,
+    breakpoints: {
+      375: {
+        perPage: 1,
       },
-    };
-    new Splide(splideElement, splideDefaultOptions).mount();
-
+      576: {
+        perPage: 2,
+      },
+      991: {
+        perPage: 3,
+      },
+      992: {
+        perPage: 3,
+      },
+      1024: {
+        perPage: 4,
+      },
+      1200: {
+        perPage: 6,
+      },
+      1440: {
+        perPage: 6,
+      },
+    },
+  };
+  new Splide(splideElement, splideDefaultOptions).mount();
 }
-
 
 /* ************************************************************************************** */
 //for tab sweater & loader added
@@ -106,13 +104,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var dogBtns = dogBtnContainer.getElementsByClassName(
     "citrusBISilver__tab_item"
   );
-  // for cat active class
-  var catBtnContainer = document.getElementById("citrusBISilverTabIdCat");
-  var catBtns = catBtnContainer.getElementsByClassName(
-    "citrusBISilver__tab_item"
-  );
   addActiveClass(dogBtns, "citrusBISilver__Dog-active_tab");
-  addActiveClass(catBtns, "citrusBISilver__cat-active_tab");
+  // do not need to extra add this for only single tabbed product scroller
+  // addActiveClass(catBtns, "citrusBISilver__cat-active_tab");
 });
 function addActiveClass(element, activeClass) {
   for (var i = 0; i < element.length; i++) {
