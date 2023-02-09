@@ -107,12 +107,12 @@ document.addEventListener("DOMContentLoaded", function () {
     "citrusBISilver__tab_item"
   );
   // for cat active class
-  var catBtnContainer = document.getElementById("citrusBISilverTabIdCat");
-  var catBtns = catBtnContainer.getElementsByClassName(
-    "citrusBISilver__tab_item"
-  );
+  // var catBtnContainer = document.getElementById("citrusBISilverTabIdCat");
+  // var catBtns = catBtnContainer.getElementsByClassName(
+  //   "citrusBISilver__tab_item"
+  // );
   addActiveClass(dogBtns, "citrusBISilver__Dog-active_tab");
-  addActiveClass(catBtns, "citrusBISilver__cat-active_tab");
+  // addActiveClass(catBtns, "citrusBISilver__cat-active_tab");
 });
 function addActiveClass(element, activeClass) {
   for (var i = 0; i < element.length; i++) {

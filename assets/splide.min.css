@@ -161,7 +161,7 @@
   outline-offset: 3px;
 }
 .splide__arrow--prev {
-  left: 1em;
+  left: 0em;
 }
 .splide__arrow--prev svg {
   transform: scaleX(-1);

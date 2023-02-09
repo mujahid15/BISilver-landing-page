@@ -146,18 +146,21 @@ body {
 }
 
 .citrusBISilver__tab-container {
-  max-width: 1273px;
+  max-width: 1245px;
   width: 100%;
   margin: 0 auto;
+}
+.citrusBISilver__Products{
+  padding-left: 4px;
 }
 .splide__pagination {
   display: none;
 }
 .citrusBISilver__dogProduct,
 .citrusBISilver__catProduct {
-  max-width: 195px;
+  max-width: 190px;
   width: 100% !important;
-  margin: 0px 9px;
+  margin: 0px 8px;
   display: none;
 }
 .citrusBISilver-tab-cardImg img {
@@ -266,7 +269,7 @@ button {
   margin: 40px 0px 5px 0px;
 }
 .citrusBISilver__VideoContainer {
-  width: 1100px;
+  width: 1095px;
   max-width: 95%;
   margin: auto;
   padding-top: 40px;
@@ -296,7 +299,10 @@ button {
  justify-content: center;
  align-items: center;
  max-width: 80%;
- margin: -160px auto 0px auto;
+ margin: -140px auto 0px auto;
+}
+.citrusBISilver__VideocardBody .products img{
+  max-width: 166px;
 }
 .citrusBISilver__VideocardBody .products h6{
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -403,7 +409,7 @@ button {
   color: #000000;
 }
 .citrusBISilver__productComparison_tbl .products img{
-  max-width: 105px;
+  max-width: 104px;
 }
 .citrusBISilver__productComparison_tbl .product-for-cats {
   max-width: 110px!important;
