@@ -255,6 +255,30 @@ button {
 .citrusBISilver_hide_arrow .splide__arrows {
   display: none;
 }
+.citrusBISilver_tab_controls .splide__arrow{
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #122359;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  height: 2.2em;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 2.2em;
+  z-index: 1;
+}
 .citrusBISilver-section__tab-content .splide__arrow:disabled {
   opacity: 0;
 }
@@ -471,12 +495,13 @@ button {
   max-width: 865px;
   margin: 5px auto;
   padding: 5px;
+}
+.citrusBISilver__footer-copy p{
   font-family: "PetcoCircularTT-Regular", arial !important;
   font-size: 12px;
   line-height: 14px;
   color: #000;
   text-align: center;
-
 }
 /*------- Footer copy style end (1440px) ------*/
 /*------- responsive styling ------ */
